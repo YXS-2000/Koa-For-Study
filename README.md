@@ -16,6 +16,7 @@ yarn add koa
 
 #### 1.2文件目录结构
 
+```
 Koa-test
 ├── README.md
 ├── package.json
@@ -28,6 +29,7 @@ Koa-test
 ├── tsconfig.json
 ├── yarn-error.log
 └── yarn.lock
+```
 
 ### 2、启动方式
 
