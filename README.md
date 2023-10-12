@@ -24,6 +24,9 @@ Koa-test
 │   ├── api // 各种API方法
 │   │   ├── init.ts
 │   │   └── weather.ts
+│   ├── schedule // 定时任务
+│   │   ├── weatherSchedule // 具体定时任务方法
+│   │   └── index.ts // 定时任务入口文件
 │   ├── app.ts // Koa配置路由中间件文件
 │   └── router.ts // 路由配置文件
 ├── tsconfig.json

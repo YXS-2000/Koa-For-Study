@@ -1,8 +1,10 @@
 const Koa = require('koa');
 const routers = require('./router');
+const scheduleJobs = require('./schedule');
 
 const app = new Koa();
 
+scheduleJobs();
 app.use(routers.routes());
 app.use(routers.allowedMethods());
 
