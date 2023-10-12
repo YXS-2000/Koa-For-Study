@@ -1,4 +1,4 @@
-const request  = require('request')
+const request  = require('request');
 type WeatherType = 'observe' | 'forecast_1h' | 'forecast_24h' | 'air';
 
 async function otherWeather(type: WeatherType) {
