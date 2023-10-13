@@ -21,6 +21,7 @@ Koa-test
 ├── README.md
 ├── package.json
 ├── src
+│   ├── utils // 以下存放公共方法
 │   ├── api // 各种API方法
 │   │   ├── init.ts
 │   │   └── weather.ts
